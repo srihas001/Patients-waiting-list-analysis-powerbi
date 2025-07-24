@@ -2,7 +2,8 @@
 Power BI | Excel | Healthcare Data | Strategy & Insights
 
 🔍 Objective
-To analyze patient waitlist trends across age groups, specialties, and case types using Power BI — with the goal of identifying high-pressure areas, delays, and actionable improvement opportunities for healthcare service delivery.
+To analyze patient waitlist trends across age groups, specialties, and case types using Power BI —
+with the goal of identifying high-pressure areas, delays, and actionable improvement opportunities for healthcare service delivery.
 
 🛠 Tools & Skills Used
 Power BI – Dashboarding, DAX Measures, Interactive Visuals
@@ -17,71 +18,63 @@ UX for Decision-Making – Built with filters/slicers for real-time insight
 Covers patient waitlist records from Jan 2018 to Mar 2021
 
 Key Fields:
-
 Case Type – Outpatient, Inpatient, Day Case
 
 Age Groups – 0–15, 16–64, 65+
 
-Specialties – Dermatology, Orthopaedics, Emergency, etc.
+Time Bands – 0–3 months to 18+ months
 
-Wait Time Bands – 0–3 months up to 18+ months
+Specialty – Dermatology, Emergency, Orthopaedics, etc.
 
-Patient Counts, Median Wait Time, Average Wait Time
+Wait Metrics – Average & Median wait time
 
-📈 Key Insights & Business Recommendations
-1. Outpatient Load is the Highest (~72%)
-⚠️ Hospitals face a growing burden in outpatient cases.
+📈 Key Insights & Actions
+✅ Outpatient Cases Dominate (~72%)
+📌 Action: Streamline appointment slots, prioritize first-touch visits
 
-📌 Action: Optimize outpatient scheduling; explore self-service triaging.
+💡 Impact: Reduces outpatient overload & delays
 
-💡 Impact: Smoother flow, reduced delays in first-point care.
+⚠️ Age 16–64 Shows Highest Delay in 18+ Month Waitlist
+📌 Action: Flag long waiters for special review / fast-tracking
 
-2. High-Risk Delays in Age 16–64 Segment
-🔎 Over 300+ patients wait 18+ months, mostly in this age group.
+💡 Impact: Better chronic care management for working population
 
-📌 Action: Introduce priority flags and escalation protocols.
+🔁 Spike in Monthly Waitlists Post-2019
+📌 Action: Align staffing models and create surge buffers
 
-💡 Impact: Improves outcomes for working-age chronic patients.
+💡 Impact: Smoothens handling of future spikes in demand
 
-3. Surge in Demand After 2019
-📊 Clear spike in monthly waitlists post-2019.
+🩺 Dermatology & Ortho Specialties Face Delay
+📌 Action: Optimize or reallocate specialist availability
 
-📌 Action: Deploy flexible staffing or pop-up clinics during peak periods.
+💡 Impact: Improves patient flow in delayed specialties
 
-💡 Impact: Helps absorb surge demand without affecting service levels.
+👶 Pediatrics (0–15) Is Efficiently Handled
+📌 Action: Use excess pediatric capacity to support high-delay departments
 
-4. Specialty Pressure: Dermatology & Ortho
-📉 Consistent high average wait times.
+💡 Impact: Balanced resource allocation without compromise
 
-📌 Action: Onboard part-time specialists or cross-utilize capacity.
+🧠 Dashboard Features
+📅 Date Range Slicers – Dynamic trend filtering
 
-💡 Impact: Reduces specialty backlog, improves satisfaction.
+🏥 Case Type Filters – Compare Day Case / Inpatient / Outpatient
 
-5. Pediatric Segment (0–15) Is Well-Managed
-✅ Lowest average wait times among age groups.
+👶 Age Profile Breakdown
 
-📌 Action: Maintain pediatric priority, reallocate excess capacity to stressed specialties.
+🧬 Specialty-wise Drilldown
 
-💡 Impact: Balances resource use without compromising core care.
+🔄 Toggle: Average vs Median Wait Time
 
-🧠 Dashboard Highlights
-📅 Date Slicers – Explore monthly trends dynamically
-
-🏥 Case Type Filters – Compare Outpatient vs Day Case vs Inpatient
-
-👶 Age Group Analysis – Track care load by demographic
-
-🩺 Specialty-Level Drilldown – Identify pain points by department
-
-📊 Toggle Views – Median vs Average Wait Times for true picture
+📊 Interactive Donuts + Line Trends
 
 💼 Why This Project Matters
-This dashboard simulates real-world healthcare data monitoring and supports:
+This dashboard mirrors real-world healthcare challenges and supports:
 
-🔹 Strategic staffing & fulfillment planning
+📍 Strategic resource planning
 
-🔹 Service-level evaluation across specialties
+📍 Risk identification across patient types
 
-🔹 Patient experience optimization through analytics
+📍 Specialty-level service monitoring
 
-🔹 High-risk case flagging & policy guidance
+📍 Prioritization of care pathways using data
+
