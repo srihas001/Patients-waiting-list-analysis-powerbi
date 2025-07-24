@@ -1,80 +1,70 @@
-🏥 Patient Waiting List Analytics Dashboard
-Power BI | Excel | Healthcare Data | Strategy & Insights
+# Patient Waiting List Analytics Dashboard 📈
 
-🔍 Objective
-To analyze patient waitlist trends across age groups, specialties, and case types using Power BI —
-with the goal of identifying high-pressure areas, delays, and actionable improvement opportunities for healthcare service delivery.
+> A healthcare-focused data visualization project using Power BI & Excel to analyze patient waitlist patterns, delays, and operational bottlenecks across age groups, specialties, and case types — with actionable insights to improve healthcare delivery.
 
-🛠 Tools & Skills Used
-Power BI – Dashboarding, DAX Measures, Interactive Visuals
+---
 
-Excel – Data Cleaning & Structuring
+## 🧠 Objective
 
-Data Storytelling – KPI interpretation, visual layout, recommendations
+To analyze patient waitlist trends across age groups, specialties, and case types using Power BI — aiming to identify high-pressure areas, service delays, and strategic improvements in hospital operations.
 
-UX for Decision-Making – Built with filters/slicers for real-time insight
+---
 
-📂 Dataset Overview
-Covers patient waitlist records from Jan 2018 to Mar 2021
+## 🛠 Tools Used
 
-Key Fields:
-Case Type – Outpatient, Inpatient, Day Case
+- **Power BI** – Dashboarding, DAX Measures, interactive UX  
+- **Excel** – Data cleaning & structuring  
+- **UX for Decision-Making** – Filters, slicers, date sliders, toggle for Avg vs Median  
+- **Data Storytelling** – Visual layout, KPI interpretation, actionable recommendations
 
-Age Groups – 0–15, 16–64, 65+
+---
 
-Time Bands – 0–3 months to 18+ months
+## 📂 Dataset Overview
 
-Specialty – Dermatology, Emergency, Orthopaedics, etc.
+- Patient waitlist data from **Jan 2018 to Mar 2021**
+- Key fields include:  
+  - `Case Type:` Outpatient, Inpatient, Day Case  
+  - `Age Profile:` 0–15, 16–64, 65+  
+  - `Time Bands:` 0–3M, 3–6M, ..., 15–18M  
+  - `Specialty Name:` Emergency, Dermatology, Cardiology, etc.  
+  - `Metrics:` Waitlist count, average & median wait times
 
-Wait Metrics – Average & Median wait time
+---
 
-📈 Key Insights & Actions
-✅ Outpatient Cases Dominate (~72%)
-📌 Action: Streamline appointment slots, prioritize first-touch visits
+## 📈 Key Insights
 
-💡 Impact: Reduces outpatient overload & delays
+- **Outpatient** cases dominate with over **70%** of the total waitlist  
+- **65+ age group** patients face the **longest delays**, especially in 18+ month bands  
+- **Paediatric Dermatology** & **ENT** departments have the **highest average waits**  
+- **Day Case & Inpatient** volumes dipped notably in **2020–21**  
+- **Outpatient trends** show a consistent increase from 2019 to 2021
 
-⚠️ Age 16–64 Shows Highest Delay in 18+ Month Waitlist
-📌 Action: Flag long waiters for special review / fast-tracking
+---
 
-💡 Impact: Better chronic care management for working population
+## 📌 Strategic Recommendations
 
-🔁 Spike in Monthly Waitlists Post-2019
-📌 Action: Align staffing models and create surge buffers
+### 1. Prioritize High-Wait Specialties  
+- **Insight:** Dermatology and Orthopaedics show persistent delays  
+- **Action:** Allocate additional slots or optimize referrals  
+- **Impact:** Reduces bottlenecks and wait times
 
-💡 Impact: Smoothens handling of future spikes in demand
+### 2. Address Elderly Patient Delay  
+- **Insight:** 65+ patients experience long waitlists  
+- **Action:** Implement age-priority triaging in scheduling  
+- **Impact:** Improves service equity and outcomes for vulnerable groups
 
-🩺 Dermatology & Ortho Specialties Face Delay
-📌 Action: Optimize or reallocate specialist availability
+### 3. Monitor Outpatient Growth  
+- **Insight:** Outpatient load increased over years  
+- **Action:** Expand capacity or stagger appointments  
+- **Impact:** Better resource planning and service delivery
 
-💡 Impact: Improves patient flow in delayed specialties
+### 4. Leverage Interactive Dashboard for Real-Time Planning  
+- **Insight:** Dashboard supports filtering by time, case type, and specialty  
+- **Action:** Use in hospital admin teams for ongoing ops monitoring  
+- **Impact:** Enables quick decisions and early interventions
 
-👶 Pediatrics (0–15) Is Efficiently Handled
-📌 Action: Use excess pediatric capacity to support high-delay departments
+---
 
-💡 Impact: Balanced resource allocation without compromise
+## 🎯 Outcome
 
-🧠 Dashboard Features
-📅 Date Range Slicers – Dynamic trend filtering
-
-🏥 Case Type Filters – Compare Day Case / Inpatient / Outpatient
-
-👶 Age Profile Breakdown
-
-🧬 Specialty-wise Drilldown
-
-🔄 Toggle: Average vs Median Wait Time
-
-📊 Interactive Donuts + Line Trends
-
-💼 Why This Project Matters
-This dashboard mirrors real-world healthcare challenges and supports:
-
-📍 Strategic resource planning
-
-📍 Risk identification across patient types
-
-📍 Specialty-level service monitoring
-
-📍 Prioritization of care pathways using data
-
+This project delivers an end-to-end healthcare analysis workflow — from raw data to meaningful insights — enabling better visibility into **waitlist dynamics**, **resource planning**, and **equitable care delivery** through **interactive, decision-ready dashboards**.
